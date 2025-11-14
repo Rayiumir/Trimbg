@@ -1,0 +1,13 @@
+{
+  "name": "trimbg",
+  "version": "1.0.0",
+  "description": "A fully custom, API-free tool for removing image backgrounds using pure JavaScript.",
+  "license": "MIT",
+  "author": "Raymond Baghumian",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  }
+}
