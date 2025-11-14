@@ -14,7 +14,6 @@ function createWindow() {
             contextIsolation: true,
             enableRemoteModule: false
         },
-        icon: path.join(__dirname, './icon/icon.png'),
         title: 'TrimBG',
         backgroundColor: '#f8f9fa'
     });

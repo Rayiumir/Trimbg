@@ -15,3 +15,101 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 0.375rem;
+    padding: 3rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+h1 {
+    text-align: center;
+    color: #212529;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.description {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+
+.uploadSection {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.dropzone {
+    border: 2px dashed #dee2e6;
+    border-radius: 0.375rem;
+    padding: 3rem 2rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.dropzone:hover {
+    border-color: #0d6efd;
+    background-color: #f8f9fa;
+}
+
+.dropzone.drag-over {
+    border-color: #0d6efd;
+    background-color: #e7f1ff;
+    transform: scale(1.02);
+}
+
+.dropzone svg {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.dropzone h3 {
+    color: #212529;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.dropzone p {
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+}
