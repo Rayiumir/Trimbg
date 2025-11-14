@@ -9,5 +9,8 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^39.2.0"
   }
 }
