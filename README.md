@@ -22,7 +22,7 @@ A fully custom, API-free tool for removing image backgrounds using pure JavaScri
 ## Clone the repository
 
 ```bash
-git clone https://github.com/Rayiumir/Trimbg.git
+git clone https://github.com/TrimBG/Trimbg.git
 cd Trimbg/
 npm install
 npm start
