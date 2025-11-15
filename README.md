@@ -7,7 +7,9 @@
 </p>
 
 # TrimBG
-A fully custom, API-free tool for removing image backgrounds using pure JavaScript.
+
+TrimBG is a desktop application built with the Electron framework that removes image backgrounds completely offline and without any API all with a single click.
+The software uses JavaScript for image processing, and all operations are performed locally on your device.
 
 ## Features
 
